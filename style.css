@@ -8,12 +8,12 @@
   position: fixed;
   height:100%;
 }
-.head{
+.intro-page .head{
   width: 100%;
   margin: 0 auto;
-  background: #D7F1FD;
   height: 48px;
   padding: 0px 277px;
+  background: url(img/flower.svg) #da2127 no-repeat;
 }
 .head .ATM {
   display: inline-flex;
@@ -65,7 +65,7 @@
 .intro-page .frame {
   position: absolute;
   width: 436px;
-  height: 863px;
+  height: 915px;
   top: 49px;
   left: 277px;
   background-color: #00000026;
@@ -124,8 +124,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding-top: 6px;
-  background: #D7F1FD;
+  padding-top: 8px;
 }
 
 .intro-page .navbar {
@@ -147,7 +146,7 @@
   width: fit-content;
   font-family: var(--SVN-gilroy-14-14px-semibold-font-family);
   font-weight: var(--SVN-gilroy-14-14px-semibold-font-weight);
-  color: #005993;
+  color: var(--base-colorwhite);
   font-size: var(--SVN-gilroy-14-14px-semibold-font-size);
   letter-spacing: var(--SVN-gilroy-14-14px-semibold-letter-spacing);
   line-height: var(--SVN-gilroy-14-14px-semibold-line-height);
@@ -303,17 +302,17 @@
   flex: 0 0 auto;
   border-radius: 16px;
   border: 1px solid;
-  border-color: var(--base-colormain-crimson);
+  border-color: var(--base-colorwhite);
 }
 
 .intro-page .text-wrapper-4 {
   position: relative;
   width: fit-content;
   height: 21px;
-  margin-top: -9px;
+  margin-top: -8px;
   font-family: var(--SVN-gilroy-20-20px-semibold-font-family);
   font-weight: var(--SVN-gilroy-20-20px-semibold-font-weight);
-  color: var(--base-colormain-crimson);
+  color: var(--base-colorwhite);
   font-size: var(--SVN-gilroy-20-20px-semibold-font-size);
   letter-spacing: var(--SVN-gilroy-20-20px-semibold-letter-spacing);
   line-height: var(--SVN-gilroy-20-20px-semibold-line-height);
@@ -326,7 +325,7 @@
   width: fit-content;
   font-family: var(--SVN-gilroy-24-24px-bold-font-family);
   font-weight: var(--SVN-gilroy-24-24px-bold-font-weight);
-  color: var(--base-colormain-crimson);
+  color: var(--base-colorwhite);
   font-size: var(--SVN-gilroy-24-24px-bold-font-size);
   letter-spacing: var(--SVN-gilroy-24-24px-bold-letter-spacing);
   line-height: var(--SVN-gilroy-24-24px-bold-line-height);
@@ -374,6 +373,7 @@
   align-items: center;
   position: relative;
   overflow: hidden;
+  border-radius: 8px;
 }
 
 .intro-page .text-wrapper-6 {
@@ -387,6 +387,7 @@
   line-height: var(--SVN-gilroy-14-14px-semibold-line-height);
   white-space: nowrap;
   font-style: var(--SVN-gilroy-14-14px-semibold-font-style);
+  margin-top: -3px;
 }
 
 .intro-page .frame-4 {

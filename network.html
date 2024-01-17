@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="font.css"/>
+    <link rel="stylesheet" href="globals.css"/>
+    <link rel="stylesheet" href="network/styleguide.css"/>
+    <link rel="stylesheet" href="network/style.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="head">
+    <div class="top-menu">
+        <div class="navbar">
+            <div class="text-wrapper-2">NHÀ ĐẦU TƯ</div>
+            <div class="text-wrapper-2">TUYỂN DỤNG</div>
+            <div class="text-wrapper-2">TIN TỨC</div>
+            <div class="text-wrapper-2">HỖ TRỢ</div>
+            <div class="text-wrapper-2">LIÊN HỆ</div>
+        </div>
+        <div class="h-tr">
+            <div class="tm-kim">
+                <input class="search search-full hide" type="search" onblur="showSearchOnLeave()"  placeholder="Nhập từ khóa để tìm kiếm...">
+                <a onclick="showSearchBox()" class="tm-kim search-left">
+                    <img class="img-3" src="img/search-normal.svg"/>
+                </a>
+            </div>
+            <div class="ATM">
+                <img class="location" src="img/location.svg"/>
+            </div>
+            <div class="contact-center">
+                <img class="call" src="img/call.svg"/>
+                <div class="text-wrapper">1900 558 886</div>
+            </div>
+            <div class="text-wrapper-5">VI</div>
+        </div>
+    </div>
+</div>
+<div class="header-main1">
+    <div class="header-inner">
+        <div class="container flex">
+            <div class="header-main">
+                <a href="index.html"><img class="logo-vietin-bank" src="img/logo-vietin-bank.png"/></a>
+                <div class="list">
+                    <div class="item-margin dropdown">
+                        <div class="link-wrapper">
+                            <div class="link">
+                                <div class="div"><a style="color: var(--base-colorwhite);" href="khcn.html">Cá nhân</a></div>
+                                <div class="pseudo-margin">
+                                    <div class="pseudo">
+                                        <div class="symbol-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                           Begin  Megamenu-->
+                        <div class="sticky-dropdown-content">
+                            <div class="mega">
+                                <div class="menuF">
+                                    <div class="div">
+                                        <div class="menuF-2 stablinks active" onclick="openStab(event, 'stab1')">
+                                            <div class="mega_group"><img class="img" src="img/megamenu/group-39199.png" /></div>
+                                            <div class="menuF-3">
+                                                <div class="menuF-wrapper">
+                                                    <div class="menuF-4">
+                                                        <p class="p">Sản phẩm dịch vụ </p>
+                                                        <div class="overlap-group-wrapper">
+                                                            <div class="overlap-group">
+                                                                <img class="vector" src="img/megamenu/vector-4.svg" /> <img class="vector-2" src="img/megamenu/vector-3.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="menuF-2 stablinks" onclick="openStab(event, 'stab2')">
+                                            <div class="mega_group">
+                                                <div class="vector-wrapper"><img class="vector-3" src="img/megamenu/vector-7.svg" /></div>
+                                            </div>
+                                            <div class="menuF-3">
+                                                <div class="menuF-wrapper">
+                                                    <div class="menuF-4">
+                                                        <p class="p">Công cụ và tiện ích</p>
+                                                        <div class="overlap-group-wrapper">
+                                                            <div class="overlap-group">
+                                                                <img class="vector" src="img/megamenu/vector-4.svg" /> <img class="vector-2" src="img/megamenu/vector-3.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="menuF-2 stablinks" onclick="openStab(event, 'stab3')">
+                                            <div class="mega_group"><img class="filter-and" src="img/megamenu/icons8-filter-and-sort-1.svg" /></div>
+                                            <div class="menuF-3">
+                                                <div class="menuF-wrapper">
+                                                    <div class="menuF-4">
+                                                        <p class="p">Liên hệ và hỗ trợ</p>
+                                                        <div class="overlap-group-wrapper">
+                                                            <div class="overlap-group">
+                                                                <img class="vector" src="img/megamenu/vector-4.svg" /> <img class="vector-2" src="img/megamenu/vector-3.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="stab1" class="stabcontent flex">
+                                    <div class="products-left">
+                                        <div class="interactive-reports">
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/money-bundle.svg" />
+                                                <div class="menu-text-2">Tiền gửi</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/double-credit-card.svg" />
+                                                <div class="menu-text-2">Thẻ</div>
+                                                <div class="submenu_2">
+                                                    <div class="project-card-wrapper">
+                                                        <div class="description">
+                                                            <div class="text-sub">THẺ</div>
+                                                            <ul class="sub_menu2" style="list-style: outside; padding-left: 23px;">
+                                                                <li><a>Thẻ ghi nợ nội địa</a></li>
+                                                                <li><a>Thẻ tín dụng nội địa</a></li>
+                                                                <li><a>Thẻ kết hợp</a></li>
+                                                                <li><a>Thẻ ghi nợ quốc tế</a></li>
+                                                                <li><a>Thẻ tín dụng quốc tế</a></li>
+                                                                <li><a>Thẻ đồng thương hiệu</a></li>
+                                                                <li><a>Thẻ thanh toán</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/laptop-card.svg" />
+                                                <div class="menu-text-2">Ngân hàng số</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/cards-case.svg" />
+                                                <div class="menu-text-2">Bảo hiểm</div>
+                                            </div>
+                                            <div class="title">
+                                                <div class="img-2">
+                                                    <div class="hand-coin">
+                                                        <div class="overlap">
+                                                            <div class="overlap-2">
+                                                                <img class="vector-4" src="img/megamenu/vector-2.svg" /> <img class="vector-5" src="img/megamenu/vector-1.svg" />
+                                                            </div>
+                                                            <div class="overlap-group-2">
+                                                                <img class="vector-6" src="img/megamenu/vector.svg" /> <img class="subtract" src="img/megamenu/subtract.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="menu-text-2">Cho vay</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/transfer-cards.svg" />
+                                                <div class="menu-text-2">Chuyển tiền kiều hối</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/bill.svg" />
+                                                <div class="menu-text-2">Dịch vụ khác</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rectangle"></div>
+                                    <div class="project-card-wrapper">
+                                        <div class="project-card">
+                                            <div class="element-wrapper"><img class="element" src="img/megamenu/80-1.png" /></div>
+                                            <div class="info"><p class="text-wrapper-3">Thẻ VIP trên tay - Rinh ngay lượt golf</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="products-left-2">
+                                        <div class="project-card-2">
+                                            <div class="unsplash-wrapper"><img class="unsplash" src="img/megamenu/unsplash-gmes5dnykus.png" /></div>
+                                            <div class="info-2"><p class="text-wrapper-3">Gửi tiền và mua bán ngoại tệ đón lộc đầu năm</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="stab2" class="stabcontent flex" style="display:none">
+                                    <div class="products-left">
+                                        <p class="p">Công cụ và tiện ích</p>
+                                        <div class="interactive-reports">
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/money-bundle.svg" />
+                                                <div class="menu-text-2">Tiền gửi</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/double-credit-card.svg" />
+                                                <div class="menu-text-2">Thẻ</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/laptop-card.svg" />
+                                                <div class="menu-text-2">Ngân hàng số</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/cards-case.svg" />
+                                                <div class="menu-text-2">Bảo hiểm</div>
+                                            </div>
+                                            <div class="title">
+                                                <div class="img-2">
+                                                    <div class="hand-coin">
+                                                        <div class="overlap">
+                                                            <div class="overlap-2">
+                                                                <img class="vector-4" src="img/megamenu/vector-2.svg" /> <img class="vector-5" src="img/megamenu/vector-1.svg" />
+                                                            </div>
+                                                            <div class="overlap-group-2">
+                                                                <img class="vector-6" src="img/megamenu/vector.svg" /> <img class="subtract" src="img/megamenu/subtract.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="menu-text-2">Cho vay</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/transfer-cards.svg" />
+                                                <div class="menu-text-2">Chuyển tiền kiều hối</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/bill.svg" />
+                                                <div class="menu-text-2">Dịch vụ khác</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rectangle"></div>
+                                    <div class="project-card-wrapper">
+                                        <div class="project-card">
+                                            <div class="element-wrapper"><img class="element" src="img/megamenu/80-1.png" /></div>
+                                            <div class="info"><p class="text-wrapper-3">Thẻ VIP trên tay - Rinh ngay lượt golf</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="products-left-2">
+                                        <div class="project-card-2">
+                                            <div class="unsplash-wrapper"><img class="unsplash" src="img/megamenu/unsplash-gmes5dnykus.png" /></div>
+                                            <div class="info-2"><p class="text-wrapper-3">Gửi tiền và mua bán ngoại tệ đón lộc đầu năm</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="stab3" class="stabcontent flex" style="display:none">
+                                    <div class="products-left">
+                                        <p class="p">Liên hệ và hỗ trợ</p>
+                                        <div class="interactive-reports">
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/money-bundle.svg" />
+                                                <div class="menu-text-2">Tiền gửi</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/double-credit-card.svg" />
+                                                <div class="menu-text-2">Thẻ</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/laptop-card.svg" />
+                                                <div class="menu-text-2">Ngân hàng số</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/cards-case.svg" />
+                                                <div class="menu-text-2">Bảo hiểm</div>
+                                            </div>
+                                            <div class="title">
+                                                <div class="img-2">
+                                                    <div class="hand-coin">
+                                                        <div class="overlap">
+                                                            <div class="overlap-2">
+                                                                <img class="vector-4" src="img/megamenu/vector-2.svg" /> <img class="vector-5" src="img/megamenu/vector-1.svg" />
+                                                            </div>
+                                                            <div class="overlap-group-2">
+                                                                <img class="vector-6" src="img/megamenu/vector.svg" /> <img class="subtract" src="img/megamenu/subtract.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="menu-text-2">Cho vay</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/transfer-cards.svg" />
+                                                <div class="menu-text-2">Chuyển tiền kiều hối</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/bill.svg" />
+                                                <div class="menu-text-2">Dịch vụ khác</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rectangle"></div>
+                                    <div class="project-card-wrapper">
+                                        <div class="project-card">
+                                            <div class="element-wrapper"><img class="element" src="img/megamenu/80-1.png" /></div>
+                                            <div class="info"><p class="text-wrapper-3">Thẻ VIP trên tay - Rinh ngay lượt golf</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="products-left-2">
+                                        <div class="project-card-2">
+                                            <div class="unsplash-wrapper"><img class="unsplash" src="img/megamenu/unsplash-gmes5dnykus.png" /></div>
+                                            <div class="info-2"><p class="text-wrapper-3">Gửi tiền và mua bán ngoại tệ đón lộc đầu năm</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                           End  Megamenu-->
+                    </div>
+                    <div class="item-margin">
+                        <div class="link-wrapper">
+                            <div class="link">
+                                <div class="div"><a style="color: var(--base-colorwhite);" href="network.html">Doanh nghiệp</a></div>
+                                <div class="pseudo-wrapper">
+                                    <div class="pseudo">
+                                        <div class="symbol"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-margin">
+                        <div class="link-wrapper">
+                            <div class="link">
+                                <div class="div">Khách hàng Ưu tiên</div>
+                                <div class="pseudo-wrapper">
+                                    <div class="pseudo">
+                                        <div class="symbol-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-margin">
+                        <div class="link-wrapper">
+                            <div class="link">
+                                <div class="div">Định chế tài chính</div>
+                                <div class="pseudo-margin">
+                                    <div class="pseudo">
+                                        <div class="symbol-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-margin">
+                        <div class="link-wrapper">
+                            <div class="link">
+                                <div class="div">Phát triển bền vững</div>
+                                <div class="div-wrapper">
+                                    <div class="pseudo">
+                                        <div class="symbol-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="div-main-menu-right dropdown">
+                <img class="img" src="network/img/network/pseudo.svg"/>
+                <div class="link-2 dropbtn">
+                    <img src="img/eFAST_90x22_vi.png" height="38px">
+                </div>
+                <div class="sticky-dropdown-content">
+                    <div class="list_me"><a href="#"><img src="img/iPay90x22_vi.png"/></a></div>
+                    <div class="list_me"><a href="#"><img src="img/eFAST_90x22_vi.png"/></a></div>
+                    <div class="list_me"><a href="#"><img src="img/Trade-portal-logo.png"/></a></div>
+                </div>
+            </div> -->
+            <div class="div-main-menu-right dropdown">
+                <div class="link-2 dropbtn">
+                    <img class="login" src="img/khcn/login_stick.svg">
+                    <div class="text-wrapper-2">Ngân hàng số</div>
+                </div>
+                <div class="sticky-dropdown-content" style="padding-top: 290px;width: 175px;">
+                    <div class="list_me"><a href="#"><img src="img/iPay90x22_vi.png"/></a></div>
+                    <div class="list_me"><a href="#"><img src="img/eFAST_90x22_vi.png"/></a></div>
+                    <div class="list_me"><a href="#"><img src="img/Trade-portal-logo.png"/></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="header">
+    <div class="header-inner">
+        <div class="container flex">
+            <div class="header-main">
+                <a href="index.html"><img class="logo-vietin-bank" src="img/logo-vietin-bank.svg"/></a>
+                <div class="list">
+                    <div class="item-margin dropdown">
+                        <div class="link-wrapper">
+                            <div class="link">
+                                <div class="div"><a style="color: var(--base-colorblack);" href="khcn.html">Cá nhân</a></div>
+                                <div class="pseudo-margin">
+                                    <div class="pseudo">
+                                        <div class="symbol-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                           Begin  Megamenu-->
+                        <div class="sticky-dropdown-content">
+                            <div class="mega">
+                                <div class="menuF">
+                                    <div class="div">
+                                        <div class="menuF-2 tablinks active" onclick="openTab(event, 'tab1')">
+                                            <div class="mega_group"><img class="img" src="img/megamenu/group-39199.png" /></div>
+                                            <div class="menuF-3">
+                                                <div class="menuF-wrapper">
+                                                    <div class="menuF-4">
+                                                        <p class="p">Sản phẩm dịch vụ </p>
+                                                        <div class="overlap-group-wrapper">
+                                                            <div class="overlap-group">
+                                                                <img class="vector" src="img/megamenu/vector-4.svg" /> <img class="vector-2" src="img/megamenu/vector-3.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="menuF-2 tablinks" onclick="openTab(event, 'tab2')">
+                                            <div class="mega_group">
+                                                <div class="vector-wrapper"><img class="vector-3" src="img/megamenu/vector-7.svg" /></div>
+                                            </div>
+                                            <div class="menuF-3">
+                                                <div class="menuF-wrapper">
+                                                    <div class="menuF-4">
+                                                        <p class="p">Công cụ và tiện ích</p>
+                                                        <div class="overlap-group-wrapper">
+                                                            <div class="overlap-group">
+                                                                <img class="vector" src="img/megamenu/vector-4.svg" /> <img class="vector-2" src="img/megamenu/vector-3.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="menuF-2 tablinks" onclick="openTab(event, 'tab3')">
+                                            <div class="mega_group"><img class="filter-and" src="img/megamenu/icons8-filter-and-sort-1.svg" /></div>
+                                            <div class="menuF-3">
+                                                <div class="menuF-wrapper">
+                                                    <div class="menuF-4">
+                                                        <p class="p">Liên hệ và hỗ trợ</p>
+                                                        <div class="overlap-group-wrapper">
+                                                            <div class="overlap-group">
+                                                                <img class="vector" src="img/megamenu/vector-4.svg" /> <img class="vector-2" src="img/megamenu/vector-3.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab1" class="tabcontent flex">
+                                <div class="products-left">
+                                    <div class="interactive-reports">
+                                        <div class="title">
+                                            <img class="img-2" src="img/megamenu/money-bundle.svg" />
+                                            <div class="menu-text-2">Tiền gửi</div>
+                                        </div>
+                                        <div class="title">
+                                            <img class="img-2" src="img/megamenu/double-credit-card.svg" />
+                                            <div class="menu-text-2">Thẻ</div>
+                                            <div class="submenu_2">
+                                                <div class="project-card-wrapper">
+                                                    <div class="description">
+                                                        <div class="text-sub">THẺ</div>
+                                                        <ul class="sub_menu2" style="list-style: outside; padding-left: 23px;">
+                                                            <li><a>Thẻ ghi nợ nội địa</a></li>
+                                                            <li><a>Thẻ tín dụng nội địa</a></li>
+                                                            <li><a>Thẻ kết hợp</a></li>
+                                                            <li><a>Thẻ ghi nợ quốc tế</a></li>
+                                                            <li><a>Thẻ tín dụng quốc tế</a></li>
+                                                            <li><a>Thẻ đồng thương hiệu</a></li>
+                                                            <li><a>Thẻ thanh toán</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="title">
+                                            <img class="img-2" src="img/megamenu/laptop-card.svg" />
+                                            <div class="menu-text-2">Ngân hàng số</div>
+                                        </div>
+                                        <div class="title">
+                                            <img class="img-2" src="img/megamenu/cards-case.svg" />
+                                            <div class="menu-text-2">Bảo hiểm</div>
+                                        </div>
+                                        <div class="title">
+                                            <div class="img-2">
+                                                <div class="hand-coin">
+                                                    <div class="overlap">
+                                                        <div class="overlap-2">
+                                                            <img class="vector-4" src="img/megamenu/vector-2.svg" /> <img class="vector-5" src="img/megamenu/vector-1.svg" />
+                                                        </div>
+                                                        <div class="overlap-group-2">
+                                                            <img class="vector-6" src="img/megamenu/vector.svg" /> <img class="subtract" src="img/megamenu/subtract.svg" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="menu-text-2">Cho vay</div>
+                                        </div>
+                                        <div class="title">
+                                            <img class="img-2" src="img/megamenu/transfer-cards.svg" />
+                                            <div class="menu-text-2">Chuyển tiền kiều hối</div>
+                                        </div>
+                                        <div class="title">
+                                            <img class="img-2" src="img/megamenu/bill.svg" />
+                                            <div class="menu-text-2">Dịch vụ khác</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rectangle"></div>
+                                <div class="project-card-wrapper">
+                                    <div class="project-card">
+                                        <div class="element-wrapper"><img class="element" src="img/megamenu/80-1.png" /></div>
+                                        <div class="info"><p class="text-wrapper-3">Thẻ VIP trên tay - Rinh ngay lượt golf</p></div>
+                                    </div>
+                                </div>
+                                <div class="products-left-2">
+                                    <div class="project-card-2">
+                                        <div class="unsplash-wrapper"><img class="unsplash" src="img/megamenu/unsplash-gmes5dnykus.png" /></div>
+                                        <div class="info-2"><p class="text-wrapper-3">Gửi tiền và mua bán ngoại tệ đón lộc đầu năm</p></div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div id="tab2" class="tabcontent flex" style="display:none">
+                                    <div class="products-left">
+                                        <p class="p">Công cụ và tiện ích</p>
+                                        <div class="interactive-reports">
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/money-bundle.svg" />
+                                                <div class="menu-text-2">Tiền gửi</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/double-credit-card.svg" />
+                                                <div class="menu-text-2">Thẻ</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/laptop-card.svg" />
+                                                <div class="menu-text-2">Ngân hàng số</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/cards-case.svg" />
+                                                <div class="menu-text-2">Bảo hiểm</div>
+                                            </div>
+                                            <div class="title">
+                                                <div class="img-2">
+                                                    <div class="hand-coin">
+                                                        <div class="overlap">
+                                                            <div class="overlap-2">
+                                                                <img class="vector-4" src="img/megamenu/vector-2.svg" /> <img class="vector-5" src="img/megamenu/vector-1.svg" />
+                                                            </div>
+                                                            <div class="overlap-group-2">
+                                                                <img class="vector-6" src="img/megamenu/vector.svg" /> <img class="subtract" src="img/megamenu/subtract.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="menu-text-2">Cho vay</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/transfer-cards.svg" />
+                                                <div class="menu-text-2">Chuyển tiền kiều hối</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/bill.svg" />
+                                                <div class="menu-text-2">Dịch vụ khác</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rectangle"></div>
+                                    <div class="project-card-wrapper">
+                                        <div class="project-card">
+                                            <div class="element-wrapper"><img class="element" src="img/megamenu/80-1.png" /></div>
+                                            <div class="info"><p class="text-wrapper-3">Thẻ VIP trên tay - Rinh ngay lượt golf</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="products-left-2">
+                                        <div class="project-card-2">
+                                            <div class="unsplash-wrapper"><img class="unsplash" src="img/megamenu/unsplash-gmes5dnykus.png" /></div>
+                                            <div class="info-2"><p class="text-wrapper-3">Gửi tiền và mua bán ngoại tệ đón lộc đầu năm</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab3" class="tabcontent flex" style="display:none">
+                                    <div class="products-left">
+                                        <p class="p">Liên hệ và hỗ trợ</p>
+                                        <div class="interactive-reports">
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/money-bundle.svg" />
+                                                <div class="menu-text-2">Tiền gửi</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/double-credit-card.svg" />
+                                                <div class="menu-text-2">Thẻ</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/laptop-card.svg" />
+                                                <div class="menu-text-2">Ngân hàng số</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/cards-case.svg" />
+                                                <div class="menu-text-2">Bảo hiểm</div>
+                                            </div>
+                                            <div class="title">
+                                                <div class="img-2">
+                                                    <div class="hand-coin">
+                                                        <div class="overlap">
+                                                            <div class="overlap-2">
+                                                                <img class="vector-4" src="img/megamenu/vector-2.svg" /> <img class="vector-5" src="img/megamenu/vector-1.svg" />
+                                                            </div>
+                                                            <div class="overlap-group-2">
+                                                                <img class="vector-6" src="img/megamenu/vector.svg" /> <img class="subtract" src="img/megamenu/subtract.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="menu-text-2">Cho vay</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/transfer-cards.svg" />
+                                                <div class="menu-text-2">Chuyển tiền kiều hối</div>
+                                            </div>
+                                            <div class="title">
+                                                <img class="img-2" src="img/megamenu/bill.svg" />
+                                                <div class="menu-text-2">Dịch vụ khác</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rectangle"></div>
+                                    <div class="project-card-wrapper">
+                                        <div class="project-card">
+                                            <div class="element-wrapper"><img class="element" src="img/megamenu/80-1.png" /></div>
+                                            <div class="info"><p class="text-wrapper-3">Thẻ VIP trên tay - Rinh ngay lượt golf</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="products-left-2">
+                                        <div class="project-card-2">
+                                            <div class="unsplash-wrapper"><img class="unsplash" src="img/megamenu/unsplash-gmes5dnykus.png" /></div>
+                                            <div class="info-2"><p class="text-wrapper-3">Gửi tiền và mua bán ngoại tệ đón lộc đầu năm</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                           End  Megamenu-->
+                    </div>
+                    <div class="item-margin">
+                        <div class="link-wrapper">
+                            <div class="link">
+                                <div class="div"><a style="color: var(--base-colorblack);" href="network.html">Doanh nghiệp</a></div>
+                                <div class="pseudo-wrapper">
+                                    <div class="pseudo">
+                                        <div class="symbol"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-margin">
+                        <div class="link-wrapper">
+                            <div class="link">
+                                <div class="div">Khách hàng Ưu tiên</div>
+                                <div class="pseudo-wrapper">
+                                    <div class="pseudo">
+                                        <div class="symbol-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-margin">
+                        <div class="link-wrapper">
+                            <div class="link">
+                                <div class="div">Định chế tài chính</div>
+                                <div class="pseudo-margin">
+                                    <div class="pseudo">
+                                        <div class="symbol-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-margin">
+                        <div class="link-wrapper">
+                            <div class="link">
+                                <div class="div">Phát triển bền vững</div>
+                                <div class="div-wrapper">
+                                    <div class="pseudo">
+                                        <div class="symbol-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="div-main-menu-right dropdown">
+                <img class="img" src="network/img/pseudo.svg"/>
+                <div class="link dropbtn" style="display: flow-root;text-align: center; margin-top: 12px;">
+                    <img src="img/eFAST_90x22_vi.png">
+                </div>
+                <div class="sticky-dropdown-content">
+                    <div class="list_me"><a href="#"><img src="img/iPay90x22_vi.png"/></a></div>
+                    <div class="list_me"><a href="#"><img src="img/eFAST_90x22_vi.png"/></a></div>
+                    <div class="list_me"><a href="#"><img src="img/Trade-portal-logo.png"/></a></div>
+                </div>
+            </div> -->
+            <div class="div-main-menu-right dropdown">
+                <img class="img" src="img/network/pseudo.svg"/>
+                <div class="link-2 dropbtn">
+                    <img class="login" src="img/khcn/login_stick.svg">
+                    <div class="text-wrapper-2">Ngân hàng số</div>
+                </div>
+                <div class="sticky-dropdown-content" style="padding-top: 290px;width: 175px;">
+                    <div class="list_me"><a href="#"><img src="img/iPay90x22_vi.png"/></a></div>
+                    <div class="list_me"><a href="#"><img src="img/eFAST_90x22_vi.png"/></a></div>
+                    <div class="list_me"><a href="#"><img src="img/Trade-portal-logo.png"/></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="home-KHCN">
+    <div class="hero-banner">
+        <div class="overlap-group">
+            <div class="CTA">
+                <div class="chat"><img class="bi-messenger" src="img/bi-messenger.svg"/></div>
+                <div class="t-vn"><img class="img" src="network/img/Group.svg"/></div>
+                <div class="upp"><img class="img" src="network/img/arrow-square-up.svg"/></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="section">
+            <div class="div-container">
+                <div class="div-row">
+                    <div class="div-footer-widget">
+                        <div class="div-media-image"><img class="logo-vietin-bank-2"
+                                                          src="khcn/img/logo-vietin-bank-1.svg"/></div>
+                        <div class="pseudo"></div>
+                        <div class="list">
+                            <div class="item">
+                                <div class="link">
+                                    <img class="pseudo-2" src="network/img/pseudo-2.svg"/>
+                                    <p class="text-wrapper-24">108 Trần Hưng Đạo, Hà Nội</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="link-2">
+                                    <img class="pseudo-3" src="network/img/pseudo-1.svg"/>
+                                    <div class="text-wrapper-24">(84) 24 3942 1032</div>
+                                </div>
+                            </div>
+                            <div class="item-2">
+                                <div class="link-3">
+                                    <img class="pseudo-4" src="network/img/pseudo.svg"/>
+                                    <div class="text-wrapper-24">contact@vietinbank.vn</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-ltx-navmenu">
+                        <div class="pseudo"></div>
+                        <div class="text-wrapper">Kết nối với VietinBank nhiều hơn tại</div>
+                        <div class="frame-2">
+                            <img class="img" src="network/img/facebook.png"/>
+                            <img class="img" src="network/img/youtube.png"/>
+                            <img class="img" src="network/img/linkedin.png"/>
+                        </div>
+                    </div>
+                    <div class="div-ltx-blogposts">
+                        <div class="heading">
+                            <div class="pseudo"></div>
+                            <div class="text-wrapper-26">Tải VietinBank eFAST tại</div>
+                            <div class="pseudo-6"></div>
+                            <div class="frame-3">
+                                <div style="display: flex; gap: 24px;">
+                                    <div>
+                                        <div class="app-store-eng">
+                                            <div class="text-wrapper-27">Tải ứng dụng tại</div>
+                                        </div>
+                                        <img class="photo" src="network/img/qr-app-store.png"/>
+                                    </div>
+                                    <div>
+                                        <div class="google-play-eng">
+                                            <div class="group-wrapper">
+                                                <div class="group-3">
+                                                    <img class="vector" src="network/img/vector-383.svg"/>
+                                                    <div class="text-wrapper-28">Tải ứng dụng tại</div>
+                                                    <img class="group-4" src="network/img/group-2.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img class="photo" src="network/img/qr-google-play.png"/>
+                                    </div>
+                                </div>
+                                <div class="frame-3">
+                                    <div class="contact-center-1">
+                                        <img class="call-1" src="khcn/img/call.svg"/>
+                                        <div class="text-wrapper-30">1900 558 886</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="logo-vietin-bank-3" src="khcn/img/logo-vietin-bank-2.svg"/> -->
+                </div>
+            </div>
+        </div>
+        <div class="overlap-wrapper">
+            <div class="overlap-group-4">
+                <div class="flower-color">
+                    <div class="overlap-group-4">
+                        <img class="asset" src="network/img/asset-1-4x-1.png"/>
+                        <div class="rectangle-3"></div>
+                        <div class="rectangle-4"></div>
+                    </div>
+                </div>
+                <div class="p-wrapper">
+                    <div class="p-hd"></div>
+                </div>
+                <p class="link-like-themes">© 2023 - Bản quyền thuộc về Ngân hàng TMCP Công Thương Việt Nam</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="active.js"></script>
+<script>
+    $(document).ready(function () {
+        jQuery(window).on('scroll', () => {
+            if ($(this).scrollTop() > 100) {
+                $('.header').addClass("sticky");
+            } else {
+                $('.header').removeClass("sticky");
+            }
+        });
+    });
+
+</script>
+</body>
+</html>

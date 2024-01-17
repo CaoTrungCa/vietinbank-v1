@@ -1,8 +1,9 @@
 .head {
   width: 100%;
   margin: 0 auto;
-  background: url(./img/top-bar.png) #da2127 no-repeat;
+  background: url(img/flower.svg) #da2127 no-repeat;
   background-size: cover;
+  height: 48px;
 }
 
 .head .top-menu {
@@ -12,8 +13,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding-top: 10px;
-  background: #D7F1FD;
+  padding-top: 15px;
 }
 
 .head .navbar {
@@ -30,7 +30,7 @@
   height: 15px;
   font-family: var(--SVN-gilroy-14-14px-semibold-font-family);
   font-weight: var(--SVN-gilroy-14-14px-semibold-font-weight);
-  color: #005993;
+  color: var(--base-colorwhite);
   font-size: var(--SVN-gilroy-14-14px-semibold-font-size);
   letter-spacing: var(--SVN-gilroy-14-14px-semibold-letter-spacing);
   line-height: var(--SVN-gilroy-14-14px-semibold-line-height);
@@ -43,7 +43,7 @@
   width: fit-content;
   font-family: var(--SVN-gilroy-24-24px-bold-font-family);
   font-weight: var(--SVN-gilroy-24-24px-bold-font-weight);
-  color: var(--base-colormain-crimson);
+  color: var(--base-colorwhite);
   font-size: var(--SVN-gilroy-24-24px-bold-font-size);
   letter-spacing: var(--SVN-gilroy-24-24px-bold-letter-spacing);
   line-height: var(--SVN-gilroy-24-24px-bold-line-height);
@@ -71,7 +71,7 @@
 
 .tm-kim input.search {
   width: 260px;
-  border: 1px solid #005993;
+  border: 1px solid var(--base-colorwhite);
   display: block;
   padding: 9px 4px 9px 40px;
   background: transparent url("../img/search-normal.svg") no-repeat 13px;
@@ -80,7 +80,7 @@
 }
 
 .tm-kim input.search::placeholder {
-  color: #005993;
+  color: var(--base-colorwhite);
   font-family: var(--SVN-gilroy-12-12px-regular-font-family);
   font-weight: var(--SVN-gilroy-12-12px-regular-font-weight);
   font-size: var(--SVN-gilroy-12-12px-regular-font-size);
@@ -146,7 +146,7 @@
   position: relative;
   border-radius: 16px;
   border: 1px solid;
-  border-color: #D71049;
+  border-color: var(--base-colorwhite);
 }
 
 .contact-center .call {
@@ -160,12 +160,13 @@
   width: fit-content;
   font-family: var(--SVN-gilroy-20-20px-semibold-font-family);
   font-weight: var(--SVN-gilroy-20-20px-semibold-font-weight);
-  color: #D71049;
+  color: var(--base-colorwhite);
   font-size: var(--SVN-gilroy-20-20px-semibold-font-size);
   letter-spacing: var(--SVN-gilroy-20-20px-semibold-letter-spacing);
   line-height: var(--SVN-gilroy-20-20px-semibold-line-height);
   white-space: nowrap;
   font-style: var(--SVN-gilroy-20-20px-semibold-font-style);
+  margin-top: -2px;
 }
 /*home*/
 .home-KHCN {
@@ -2405,6 +2406,7 @@
   justify-content: center;
   position: relative;
   z-index: 1;
+  height: 72px;
 }
 
 .header-main {
@@ -2415,7 +2417,6 @@
   flex: 1;
   align-self: stretch;
   flex-grow: 1;
-  margin-top: -2px;
 }
 
 .logo-vietin-bank {
@@ -2883,11 +2884,11 @@
 .submenu_2{
   position: absolute;
   z-index: 1;
-  top: -80px;
+  top: -104px;
   left: 200px;
   width: 400px;
   background: #FFF;
-  height: 359px;
+  height: 352px;
   padding-left: 90px;
   padding-top: 38px;
 }
